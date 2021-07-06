@@ -1,5 +1,5 @@
 <?php
-$name = $_Get["NAME"];
+$name = $_GET["name"];
     if ($name) {
         echo "Hello ".$name;" !\n";
     }

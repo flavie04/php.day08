@@ -2,7 +2,7 @@
 $name = NULL;
 if (array_key_exists("name", $_GET)) {
     $name = $_GET["name"];
-    setcookie("name", $name,time()+30);
+    setcookie("name", $name,time()+3600);
 }
 else if (array_key_exists("name", $_COOKIE)) {
     $name = $_COOKIE["name"];

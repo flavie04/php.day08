@@ -9,9 +9,9 @@ else if (array_key_exists("name", $_SESSION)) {
     $name = $_SESSION["name"];
 }
 if  ($name) {
-    echo "Hello ".$name;" !\n";
+    echo "Hello ".$name;
 }
 else {
-    echo "Hello platypus !\n";
+    echo "Hello platypus";
 }
 ?>

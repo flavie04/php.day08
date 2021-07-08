@@ -1,9 +1,9 @@
 <?php
 $name = $_GET["name"];
     if ($name) {
-        echo "Hello ".$name;" !\n";
+        echo "Hello ".$name;
     }
     else { 
-        echo "hello platypus !\n";
+        echo "Hello platypus";
     }
 ?>

@@ -8,9 +8,9 @@ else if (array_key_exists("name", $_COOKIE)) {
     $name = $_COOKIE["name"];
 }
 if  ($name) {
-    echo "Hello ".$name;" !\n";
+    echo "Hello ".$name;
 }
 else {
-    echo "Hello platypus !\n";
+    echo "Hello platypus";
 }
 ?>
